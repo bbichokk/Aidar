@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html  class="bg-slate-100 font-mono bg-red-200" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head >
+<body >
+
+    <div class="justify-center gap-20 mt-24 flex text-yellow-400 text-6xl ">
+
+        <h1><b>CASINO AIDAR</b></h1>
+
+    </div>
+
+    <div class=" justify-center grid grid-rows-1 text-xl">
+
+        <button class="text-yellow-500 " onclick="start()">Your coins</button>
+
+        <div id="coin" class="hidden text-center text-yellow-400 w-20 "></div>
+
+    </div>
+
+    <div class=" justify-center gap-20 mt-24 flex">
+
+        <img id="uno" class="rounded-full shadow-lg shadow-yellow-500 w-64 border my-21 " src="img/0.png" alt="">
+        
+        <img id="dos" class="rounded-full shadow-lg shadow-yellow-500 w-64 border my-21 " src="img/1.png" alt="">
+        
+        <img id="tres" class="rounded-full shadow-lg shadow-yellow-500 w-64 border my-21 " src="img/2.png" alt="">
+
+    </div>
+
+    <div class="flex justify-center gap-20 mt-20 ">
+        <button class="shadow-md shadow-white px-6 py-2 bg-yellow-500 text-black text-xl uppercase transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-yellow-500 duration-300"
+        onclick="spin()">
+           Spin me
+       </button>
+    </div>
+    
+    
+    
+
+  
+    
+
+   <script src="script.js"  ></script>
+</body>
+</html>

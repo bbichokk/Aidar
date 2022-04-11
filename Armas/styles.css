@@ -1,0 +1,16 @@
+.location-block__title {
+  font-family: PT Serif;
+  font-size: 48px;
+  color: #21385E;
+  flex: 0 0 20%;
+}
+.location-block__title {
+  font-size: 46px;
+  flex: 0 0 15%;
+}
+.fondo{
+  background-image: url(imgarmas/bk7.jpg);
+  padding: 7%;
+  background-position: right;
+}
+
